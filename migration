@@ -1,0 +1,32 @@
+
+[37;41m                                  [39;49m
+[37;41m  Command "make" is not defined.  [39;49m
+[37;41m                                  [39;49m
+[37;41m  Did you mean one of these?      [39;49m
+[37;41m      make:cast                   [39;49m
+[37;41m      make:channel                [39;49m
+[37;41m      make:command                [39;49m
+[37;41m      make:component              [39;49m
+[37;41m      make:controller             [39;49m
+[37;41m      make:event                  [39;49m
+[37;41m      make:exception              [39;49m
+[37;41m      make:export                 [39;49m
+[37;41m      make:factory                [39;49m
+[37;41m      make:import                 [39;49m
+[37;41m      make:job                    [39;49m
+[37;41m      make:listener               [39;49m
+[37;41m      make:mail                   [39;49m
+[37;41m      make:middleware             [39;49m
+[37;41m      make:migration              [39;49m
+[37;41m      make:model                  [39;49m
+[37;41m      make:notification           [39;49m
+[37;41m      make:observer               [39;49m
+[37;41m      make:policy                 [39;49m
+[37;41m      make:provider               [39;49m
+[37;41m      make:request                [39;49m
+[37;41m      make:resource               [39;49m
+[37;41m      make:rule                   [39;49m
+[37;41m      make:seeder                 [39;49m
+[37;41m      make:test                   [39;49m
+[37;41m                                  [39;49m
+

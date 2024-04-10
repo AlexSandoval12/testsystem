@@ -1,0 +1,22 @@
+.header_fijo {
+  width: 750px;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+.header_fijo thead {
+  background-color: #333;
+  color: #FDFDFD;
+}
+.header_fijo thead tr {
+  display: block;
+  position: relative;
+}
+.header_fijo tbody {
+  display: block;
+  overflow: auto;
+  width: 70%;
+  height: 500px;
+}
+.mark{
+  background-color: #FDFDFD;
+}
