@@ -1,1 +1,21 @@
+dependencies:
+  packages:
+    - nginx
+    - php80
+    - nodejs-14_x
+    - npm-6_x
 
+commands:
+  setup:
+    - mkdir -p /var/log/nginx
+    - mkdir -p /var/cache/nginx
+  install:
+    - composer install --ignore-platform-reqs
+    - npm install
+  build:
+    - npm run build
+    - php artisan optimize
+    - php artisan migrate --force
+  start:
+    - nginx -g "daemon off;"
+    - php-fpm -R
